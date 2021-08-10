@@ -21,6 +21,7 @@ const SudokuBox = (props) => {
     }
 
     const handleChange = (event) => {
+        console.log(event.target.value)
         let number = event.target.value
         if (isCharacterValid(number)) {
             setValue(number)
@@ -41,7 +42,7 @@ const SudokuBox = (props) => {
             value = {props.number || ""}
             onChange = {handleChange}
             style = {styleBox}
-            maxLength = '1'
+            maxLength = '2'
         />
     )
 }
