@@ -210,9 +210,11 @@ export class SudokuBoard extends Component {
                         </div>
                     )
                 })}
-                <button onClick = {this.handleSolve}>Solve</button>
-                <button onClick = {this.handleNewGame}>New Game</button>
-                <button onClick = {this.clearGame}>Clear Board</button>
+                   <div className = 'buttons'>
+                        <button onClick = {this.handleSolve}>Solve</button>
+                        <button onClick = {this.handleNewGame}>New Game</button>
+                        <button onClick = {this.clearGame}>Clear Board</button>
+                    </div> 
             </div>
         )
     }

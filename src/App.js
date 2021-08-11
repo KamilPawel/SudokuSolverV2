@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div>
       <header className = 'App-header'>
-        <h1>Sudoku Game {'&'} Solver</h1>
+        <h1>Sudoku Solver</h1>
         <SudokuBoard />
       </header>
     </div>

@@ -4,3 +4,18 @@
     text-align: center;
     font-size: 30px;
 }
+
+
+
+
+@media only screen and (max-width: 550px) {
+
+    .sudokuBox {
+        width: 25px;
+        height: 25px;
+        text-align: center;
+        font-size: 15px;
+    }
+
+
+}
